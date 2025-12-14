@@ -1,4 +1,4 @@
-# Laporan IDS KELOMPOK 7
+# Laporan IDS Kelompok 7
 
 **Mata Kuliah:** Keamanan Jaringan Komputer  
 **Kelas:** A
@@ -44,7 +44,7 @@ brctl addif br0 eth0    # Menambahkan eth0 ke bridge
 brctl addif br0 eth1    # Menambahkan eth1 ke bridge
 ip link set br0 up      # Mengaktifkan bridge
 ```
-### B. Suricata Rules (Aturan Deteksi)
+### B. Rules 
 Kami menambahkan aturan khusus (custom rules) pada file /etc/suricata/rules/local.rules untuk mendeteksi serangan spesifik dari IP Student ke Server Riset (10.20.30.10).
 
 1. Deteksi Port Scanning (Nmap)
