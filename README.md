@@ -79,7 +79,7 @@ Analisis Log:
 - Terlihat pada baris log: ALERT: Nmap SYN Scan Deteksi.
 - Analisis: IDS berhasil menangkap pola paket SYN beruntun yang dikirimkan oleh Nmap untuk memindai port terbuka.
 
-##### 2. SSH Brute Force (sid:100002)
+#### 2. SSH Brute Force (sid:100002)
 - Terlihat pada baris log: ALERT: Percobaan SSH Brute Force.
 - Analisis: IDS mendeteksi inisiasi koneksi ke port 22. Log ini membuktikan bahwa IDS mampu memberikan peringatan dini (Early Warning) terhadap upaya intrusi ilegal.
 
